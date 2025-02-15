@@ -7,6 +7,9 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../higherOrderComp';
 
+import mee0 from "../assets/icons/mee0.png"
+import ahmed from "../assets/icons/ahmed.jpeg"
+
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -34,7 +37,7 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>
+      <p className={`${styles.sectionSubText}text-secondary`}>
         Introduction
       </p>
       <h2 className={styles.sectionHeadText}>
@@ -43,13 +46,10 @@ const About = () => {
 
     <motion.p
       variants={fadeIn("", "", 0.1, 1)} 
-      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
     >
-       a skilled software developer with experience in both front-end and back-end development. I specialize in building dynamic, user-friendly applications using modern technologies and frameworks.
-       What I Do:
-       <br className='sm:block hidden'/>
-
-    I’m experienced in TypeScript and JavaScript, and I work with frameworks like React, Next.js, and Three.js to create engaging and responsive user interfaces.
+       I'm skilled software developer with experience in both front-end and back-end development. I specialize in building dynamic, user-friendly applications using modern technologies and frameworks.<br className='sm:block hidden'/>
+      I’m experienced in JavaScript and TypeScript, and I work with frameworks like React, Next.js, and Three.js to create engaging and responsive user interfaces.
     On the back end, I use Python, Java, SQL, and MongoDB to build scalable and efficient systems.
     Whether it’s crafting seamless user experiences or designing robust server-side solutions, I enjoy bringing ideas to life through code.
     </motion.p>
@@ -59,6 +59,27 @@ const About = () => {
         <ServiceCard key={service.title} index={index} {...service} />
       ))}
     </div>
+
+    <div className="mt-20 flex justify-center ">
+
+          <div className="text-section">
+          <h2 className={styles.sectionHeadText}>
+            Who am I
+          </h2>
+          <p className={`${styles.sectionSubText} text-violet-300`}>
+            Hello again, I'm Ahmed, a 23yr old passionate computer engineering student with experience in full-stack development, machine learning, and AI web applications. As a Software Developer, I build efficient applications. In Cybersecurity, I secure systems and data, and I'm currently taking the Google Cybersecurity Professional Certificate, which includes 9 courses. As a Data Analyst, I analyze data and apply machine learning for insights. I'm always eager to learn and expand my knowledge in technology. Feel free to explore my work below!"
+          </p>
+        </div>
+        </div>
+        <div className="mt-6 flex justify-center">
+              <img
+                src={ahmed}
+                alt="Ahmed"
+                className="w-[808px] h-[807px] object-contain rounded-full border-4 border-primary"
+              />
+            </div>
+
+              
     </>
   )
 }

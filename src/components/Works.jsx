@@ -7,7 +7,18 @@ import { SectionWrapper } from '../higherOrderComp';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+import mee0 from "../assets/icons/mee0.png"
+import boss from "../assets/icons/boss.png"
+import mee2 from "../assets/icons/mee2.png"
+import girl from "../assets/icons/girl.png"
+import man from "../assets/icons/man.png"
+import man2 from "../assets/icons/man2.png"
+import link from "../assets/icons/link.png"
+
+
+
+
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, deploy_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -33,14 +44,40 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 onclick={() => window.open(source_code_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex items-center justify-center cursor-pointer"
                 >
-                  <img 
-                   src={github} 
-                   alt="github" 
-                   className="w-1/2 h-1/2 object-contain" />
-
-
-            </div>
+                  
+            <a
+          href={source_code_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="black-gradient w-10 h-10 rounded-full flex items-center justify-center cursor-pointer"
+        >
+            <img 
+              src={github} 
+              alt="github" 
+              className="w-1/2 h-1/2 object-contain"
+            />
+            
+              </a>
+              
           </div>
+
+          <a
+          href={deploy_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="black-gradient w-10 h-10 rounded-full flex items-center justify-center cursor-pointer"
+        >
+            <img 
+              src={link} 
+              alt="link" 
+              className="w-1/2 h-1/2 object-contain"
+            />
+            
+              </a>
+          </div>
+          
+
+
         </div>
 
         <div className="mt-5">
@@ -91,8 +128,40 @@ const Works = () => {
         ))}
     </div>
 
+    <div className="mt-20 flex justify-center gap-6">
+        <img
+          src={mee0}
+          alt="mee0"
+          className="w-24 h-24 object-contain transform transition-all duration-300 hover:scale-150 hover:opacity-80"
+        />
+        <img
+          src={man}
+          alt="man"
+          className="w-24 h-24 object-contain transform transition-all duration-300 hover:scale-125 hover:opacity-80"
+        />
+        <img
+          src={mee2}
+          alt="mee2"
+          className="w-24 h-24 object-contain transform transition-all duration-300 hover:scale-125 hover:opacity-80"
+        />
+        <img
+          src={girl}
+          alt="girl"
+          className="w-24 h-24 object-contain transform transition-all duration-300 hover:scale-125 hover:opacity-80"
+        />
+         <img
+          src={boss}
+          alt="boss"
+          className="w-24 h-24 object-contain transform transition-all duration-300 hover:scale-125 hover:opacity-80"
+        />
+        <img
+          src={man2}
+          alt="man2"
+          className="w-25 h-24 object-contain transform transition-all duration-300 hover:scale-125 hover:opacity-80"
+        />
+      </div>
     </>
-  )
-}
+  );
+};
  
 export default SectionWrapper( Works, "work");

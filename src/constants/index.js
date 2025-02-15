@@ -25,6 +25,7 @@ import {
   import  java from "../assets/images/java.png";
   import  R from "../assets/images/R.png";
   import  database from "../assets/images/database.png";
+  import three from "../assets/tech/three.png"
 
   import  teacher from "../assets/icons/teacher.png";
   import  girl from "../assets/icons/girl.png";
@@ -75,10 +76,6 @@ import {
       title: "Data Analyst",
       icon: creator,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
   ];
   
   const technologies = [
@@ -116,7 +113,7 @@ import {
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: three,
     },
     {
       name: "docker",
@@ -219,7 +216,8 @@ import {
 
       ],
       image: sass,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AhmedymHub/AI-PODCAST",
+      deploy_link: "https://ai-podcast-five.vercel.app/",
     },
     {
       name: "AI Image Editor",
@@ -244,7 +242,8 @@ import {
         },
       ],
       image: project2,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AhmedymHub/Image_AI_Editor",
+      deploy_link: "https://ai-podcast-five.vercel.app/",
     },
     {
       name: "Project using Java and SQLite",
@@ -265,7 +264,8 @@ import {
         },
       ],
       image: javaa,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AhmedymHub/Java_Project/tree/main",
+      deploy_link: "https://github.com/AhmedymHub/Java_Project/tree/main",
     },
     {
       name: "Dairy Website",
@@ -286,7 +286,8 @@ import {
         },
       ],
       image: cow,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AhmedymHub/Dairy_Website/tree/main",
+      deploy_link: "https://github.com/AhmedymHub/Dairy_Website/tree/main",
     },
   ];
 
