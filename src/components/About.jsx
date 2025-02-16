@@ -71,11 +71,11 @@ const About = () => {
           </p>
         </div>
         </div>
-        <div className="mt-6 flex justify-center">
+       <div className="mt-6 flex justify-center">
               <img
                 src={ahmed}
                 alt="Ahmed"
-                className="w-[808px] h-[807px] object-contain rounded-full border-4 border-primary"
+                className="w-[700px] h-[699px] object-contain rounded-full border-4 border-l-purple-600 border-r-amber-100"
               />
             </div>
 
