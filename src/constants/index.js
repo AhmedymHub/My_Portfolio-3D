@@ -230,7 +230,6 @@ const testimonials = [
   },
 ];
 
-<<<<<<< HEAD
 const projects = [
   {
     name: "AI Podcast",
@@ -490,84 +489,3 @@ export {
   testimonials,
   projects,
 };
-=======
-      ],
-      image: sass,
-      source_code_link: "https://github.com/AhmedymHub/AI-PODCAST",
-      deploy_link: "https://ai-podcast-five.vercel.app/",
-    },
-    {
-      name: "AI Image Editor",
-      description:
-        "A web-based AI image editing platform developed using Next.js, MongoDB, Cloudinary, TypeScript, TailwindCSS, and Stripe. It offers advanced AI-driven transformations such as image restoration, recoloring, object removal, and background removal. The platform integrates Stripe for secure transactions, allowing users to purchase credits for premium features, while Cloudinary ensures efficient image storage and management.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-      ],
-      image: project2,
-      source_code_link: "https://github.com/AhmedymHub/Image_AI_Editor",
-      deploy_link: "https://github.com/AhmedymHub/Image_AI_Editor",
-    },
-    {
-      name: "Project using Java and SQLite",
-      description:
-        "A web-based flight booking system developed using Java and SQLite. It allows users to search for flights, book tickets, and manage reservations efficiently. The system features a structured database for handling flight schedules, passenger details, and transactions, ensuring smooth booking and management.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javac",
-          color: "green-text-gradient",
-        },
-        {
-          name: "sqlite",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: javaa,
-      source_code_link: "https://github.com/AhmedymHub/Java_Project/tree/main",
-      deploy_link: "https://github.com/AhmedymHub/Java_Project/tree/main",
-    },
-    {
-      name: "Dairy Website",
-      description:
-        " A web-based platform for purchasing dairy products, meat, and other food items, built using JavaScript, HTML, and CSS. The website provides an intuitive shopping experience with product listings, a cart system, and a responsive design for seamless navigation.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "html",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: cow,
-      source_code_link: "https://github.com/AhmedymHub/Dairy_Website/tree/main",
-      deploy_link: "https://github.com/AhmedymHub/Dairy_Website/tree/main",
-    },
-  ];
-
-  
-  export { services, technologies, experiences, testimonials, projects };
->>>>>>> 9ef8f30731cf42625c78abe66491a7501b03e3eb
