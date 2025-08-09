@@ -113,6 +113,36 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.red-text-gradient {
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ec0000,
+    #fc6767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ff0015,
+    #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellow-text-gradient {
+  background: #d9ff00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffee00,
+    #fbff00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffd900,
+    #d0ff00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* canvas- styles */
 .canvas-loader {
@@ -124,6 +154,33 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+.footer {
+  @apply my-10 md:mt-20 mt-10 text-white px-5 md:px-20 xl:px-20 flex items-center justify-center;
+
+  .footer-container {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0 w-full;
+  }
+
+  p {
+    @apply text-center md:text-start cursor-pointer;
+  }
+
+  .socials {
+    @apply flex items-center justify-center gap-5;
+
+    .icon {
+      @apply border border-black bg-black flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-gray-800;
+    }
+
+    img {
+      @apply inline-block;
+    }
+  }
+}
+body {
+  overflow-x: hidden;
 }
 
 @keyframes mulShdSpin {
