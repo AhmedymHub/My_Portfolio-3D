@@ -58,8 +58,10 @@ const About = () => {
         applications using modern technologies. I work with JavaScript,
         TypeScript, React, Next.js, and Three.js on the front end, and use
         Python, Java, SQL, and MongoDB on the back end to create scalable,
-        efficient systems. I enjoy turning ideas into functional, responsive,
-        and elegant digital solutions.
+        efficient systems. I hold two professional certifications from Google,
+        which complement my skills and deepen my expertise. I enjoy turning ideas
+        into functional, responsive, and elegant digital solutions.
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -79,14 +81,14 @@ const About = () => {
           <h2 className={styles.sectionHeadText}>Who am I</h2>
           <p className={`${styles.sectionSubText} text-violet-300`}>
             Driven by curiosity and the belief that learning never ends, I’m
-            developer Djiboutian — a 23-year-old computer engineering graduate
+            developer Djiboutian — a 24-years-old computer engineering graduate
             from Istanbul Arel University, originally from Djibouti. With a
             solid foundation in software development, machine learning, and
             cybersecurity, I aim to build meaningful and secure digital
             solutions. I speak English, French, Somali, and Turkish fluently,
             along with basic Arabic and Afar, allowing me to collaborate across
-            cultures with ease. I hold four certifications, including my degree
-            diploma and the Google Cybersecurity Professional Certificate, and
+            cultures with ease. I hold 3 certifications, including my degree
+            diploma and the Google Cybersecurity Professional Certificates, and
             I’m currently pursuing the Meta Back-End Developer Program to
             sharpen my backend expertise. Beyond the code, I bring strong soft
             skills: adaptability, empathy, clear communication, and a
