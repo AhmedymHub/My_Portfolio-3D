@@ -285,7 +285,7 @@ const projects = [
     ],
     image: project2,
     source_code_link: "https://github.com/AhmedymHub/Image_AI_Editor",
-    deploy_link: "https://ai-podcast-five.vercel.app/",
+    deploy_link: "https://image-ai-editor.vercel.app/",
   },
   {
     name: "School Management System",
