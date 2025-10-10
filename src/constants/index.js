@@ -288,7 +288,7 @@ const projects = [
     deploy_link: "https://image-ai-editor.vercel.app/",
   },
   {
-    name: "School Management System",
+    name: "School Management System with Machine Learning Integration – Full-Stack Web Application",
     description:
       "A modern full-stack School Management System built with Next.js, TypeScript, Prisma, PostgreSQL, and FastAPI. It supports multiple user roles (Admin, Teacher, Student, Parent), features a calendar, Kanban board, dynamic charts, and dark/light theme toggle. Machine learning is integrated to predict student success using attendance, grades, and class performance data. The backend ML service is powered by FastAPI and scikit-learn.",
     tags: [
