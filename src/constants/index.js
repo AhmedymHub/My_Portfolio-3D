@@ -15,7 +15,7 @@ import {
   docker,
 } from "../assets";
 
-import sass from "../assets/images/sass.png";
+import pod from "../assets/images/pod.png";
 import project2 from "../assets/images/project2.png";
 import javaa from "../assets/images/javaa.png";
 import cow from "../assets/images/cow.png";
@@ -257,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sass,
+    image: pod,
     source_code_link: "https://github.com/AhmedymHub/AI-PODCAST",
     deploy_link: "https://ai-podcast-five.vercel.app/",
   },
