@@ -79,7 +79,10 @@ const About = () => {
       >
         <div className="text-section">
           <h2 className={styles.sectionHeadText}>Who am I</h2>
-          <p className={`${styles.sectionSubText} text-violet-300`}>
+          <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
+      >
            Driven by curiosity and the belief that learning never ends, I’m a 24-year-old Djiboutian developer, security, and data analyst 
             and a computer engineering graduate from Istanbul Arel University. 
            Originally from Djibouti, I have a solid foundation in software development, machine learning, and cybersecurity, with a goal of building meaningful and secure digital solutions.
@@ -88,7 +91,7 @@ const About = () => {
            I hold three certifications, including my degree diploma and the Google Cybersecurity Professional Certificate, and I’m currently pursuing the Meta Back-End Developer Program to further sharpen my backend expertise.
            Beyond technical skills, I bring strong soft skills: adaptability, empathy, clear communication, and a problem-solving mindset. 
            I believe progress comes through perseverance, and I’m always ready to grow, contribute, and create.
-          </p>
+          </motion.p>
         </div>
       </motion.div>
       <motion.div
