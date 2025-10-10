@@ -80,20 +80,14 @@ const About = () => {
         <div className="text-section">
           <h2 className={styles.sectionHeadText}>Who am I</h2>
           <p className={`${styles.sectionSubText} text-violet-300`}>
-            Driven by curiosity and the belief that learning never ends, I’m
-            developer Djiboutian — a 24-years-old computer engineering graduate
-            from Istanbul Arel University, originally from Djibouti. With a
-            solid foundation in software development, machine learning, and
-            cybersecurity, I aim to build meaningful and secure digital
-            solutions. I speak English, French, Somali, and Turkish fluently,
-            along with basic Arabic and Afar, allowing me to collaborate across
-            cultures with ease. I hold 3 certifications, including my degree
-            diploma and the Google Cybersecurity Professional Certificates, and
-            I’m currently pursuing the Meta Back-End Developer Program to
-            sharpen my backend expertise. Beyond the code, I bring strong soft
-            skills: adaptability, empathy, clear communication, and a
-            problem-solving mindset. I believe that progress lies in
-            perseverance — and I’m always ready to grow, contribute, and create.
+           Driven by curiosity and the belief that learning never ends, I’m a 24-year-old Djiboutian developer, security, and data analyst 
+            and a computer engineering graduate from Istanbul Arel University. 
+           Originally from Djibouti, I have a solid foundation in software development, machine learning, and cybersecurity, with a goal of building meaningful and secure digital solutions.
+          
+           I speak English, French, Somali, and Turkish fluently, along with basic Arabic and Afar, enabling me to collaborate effectively across cultures. 
+           I hold three certifications, including my degree diploma and the Google Cybersecurity Professional Certificate, and I’m currently pursuing the Meta Back-End Developer Program to further sharpen my backend expertise.
+           Beyond technical skills, I bring strong soft skills: adaptability, empathy, clear communication, and a problem-solving mindset. 
+           I believe progress comes through perseverance, and I’m always ready to grow, contribute, and create.
           </p>
         </div>
       </motion.div>
