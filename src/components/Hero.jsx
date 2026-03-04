@@ -88,10 +88,13 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Ahmed</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Master’s Computer Science student & Full-Stack Developer
-            Building scalable, intelligent web applications powered by modern technologies and data-driven systems.
-          </p>
+         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <span className="font-semibold">
+            Master’s Computer Science Student & Full-Stack Developer
+          </span>
+          <br />
+          Building scalable, intelligent web applications powered by modern technologies and data-driven systems.
+        </p>
           <div className="mt-20 flex flex-col sm:flex-row gap-7">
             {certificate.map((project, index) => (
               <motion.div
