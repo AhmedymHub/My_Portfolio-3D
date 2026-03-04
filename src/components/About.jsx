@@ -43,70 +43,105 @@ const About = () => {
     return () => setShowModal(false);
   }, []);
 
-  return (
+ return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}text-secondary`}>Introduction</p>
         <h2 className={styles.sectionHeadText}>About Me. </h2>
       </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
-      >
+     <motion.div
+  variants={fadeIn("", "", 0.1, 1)}
+  className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
+>
+  <p>
+    I am a Full-Stack Developer with hands-on experience building scalable,
+    high-performance web applications. I specialize in developing user-centered
+    solutions using modern technologies such as{" "}
+    
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      JavaScript
+    </a>,{" "}
+    
+    <a
+      href="https://www.typescriptlang.org/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      TypeScript
+    </a>,{" "}
+    
+    <a
+      href="https://react.dev/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      React
+    </a>, and{" "}
+    
+    <a
+      href="https://nextjs.org/docs"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      Next.js
+    </a>{" "}
+    
+    on the frontend, and{" "}
+    
+    <a
+      href="https://nodejs.org/en/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      Node.js
+    </a>,{" "}
+    
+    <a
+      href="https://www.python.org/doc/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      Python
+    </a>,{" "}
+    
+    <a
+      href="https://www.postgresql.org/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      SQL
+    </a>, and{" "}
+    
+    <a
+      href="https://www.mongodb.com/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold hover:text-white transition-colors"
+    >
+      MongoDB
+    </a>{" "}
+    on the backend. My work emphasizes clean architecture, RESTful API design,
+    database optimization, and performance-driven development.
+  </p>
+</motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
-      >
-        I am a Full-Stack Developer with hands-on experience building scalable,
-        high-performance web applications. I specialize in developing user-centered
-        solutions using modern technologies such as{" "}
-        
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:text-white transition-colors"
-        >
-          JavaScript
-        </a>,{" "}
-        
-        <a
-          href="https://www.typescriptlang.org/docs/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:text-white transition-colors"
-        >
-          TypeScript
-        </a>,{" "}
-        
-        <a
-          href="https://react.dev/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:text-white transition-colors"
-        >
-          React
-        </a>, and{" "}
-        
-        <a
-          href="https://nextjs.org/docs"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-semibold hover:text-white transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        
-        on the frontend...
-      </motion.p>
-      
-            <div className="mt-20 flex flex-wrap gap-10">
-              {services.map((service, index) => (
-                <ServiceCard key={service.title} index={index} {...service} />
-              ))}
-            </div>
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
       
             <motion.div
               variants={fadeIn("up", "spring", 0, 0.6)}
