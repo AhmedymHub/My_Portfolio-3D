@@ -53,14 +53,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in both front-end and
-        back-end development. I specialize in building dynamic, user-friendly
-        applications using modern technologies. I work with JavaScript,
-        TypeScript, React, Next.js, and Three.js on the front end, and use
-        Python, Java, SQL, and MongoDB on the back end to create scalable,
-        efficient systems. I hold two professional certifications from Google,
-        which complement my skills and deepen my expertise. I enjoy turning ideas
-        into functional, responsive, and elegant digital solutions.
+       am a Full-Stack Developer with hands-on experience in designing and building scalable, high-performance web applications. I specialize in creating dynamic, user-centered solutions using modern technologies such as JavaScript, TypeScript, React, and Next.js on the frontend, and Node.js, Python, SQL, and MongoDB on the backend.
+       My work focuses on clean architecture, RESTful API design, database optimization, and performance-driven development. With professional certifications in Google Data Analytics and Google Cybersecurity, I combine strong engineering practices with data-driven thinking and security awareness.
+       I am passionate about transforming ideas into efficient, responsive, and impactful digital products that solve real-world problems.
 
       </motion.p>
 
@@ -83,14 +78,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-           Driven by curiosity and the belief that learning never ends, I’m a 24-year-old Djiboutian developer, security, and data analyst 
-            and a computer engineering graduate from Istanbul Arel University. 
-           Originally from Djibouti, I have a solid foundation in software development, machine learning, and cybersecurity, with a goal of building meaningful and secure digital solutions.
-          
-           I speak English, French, Somali, and Turkish fluently, along with basic Arabic and Afar, enabling me to collaborate effectively across cultures. 
-           I hold three certifications, including my degree diploma and the Google Cybersecurity Professional Certificate, and I’m currently pursuing the Meta Back-End Developer Program to further sharpen my backend expertise.
-           Beyond technical skills, I bring strong soft skills: adaptability, empathy, clear communication, and a problem-solving mindset. 
-           I believe progress comes through perseverance, and I’m always ready to grow, contribute, and create.
+           Driven by curiosity and a commitment to lifelong learning, I am a Djiboutian Full-Stack Developer and Data Analyst currently pursuing a Master of Computer Science at Lakehead University. I hold a Bachelor’s degree in Computer Engineering from Istanbul Arel University and bring a solid foundation in software development, machine learning, data analytics, and cybersecurity.
+           Originally from Djibouti and now based in Canada, I am passionate about building secure, scalable, and impactful digital solutions that combine strong engineering principles with intelligent data-driven systems.
+           I speak English, French, Somali, and Turkish fluently, with working knowledge of Arabic and Afar, enabling me to collaborate effectively across diverse and multicultural environments.
+           In addition to my academic background, I hold the Google Data Analytics and Google Cybersecurity Professional Certificates, strengthening my expertise in data-driven decision-making and security best practices.
+           Beyond technical skills, I bring adaptability, empathy, strong communication, and a structured problem-solving mindset. I believe growth comes through persistence, continuous improvement, and meaningful contribution — and I am always ready to learn, build, and create solutions that make a difference.
           </motion.p>
         </div>
       </motion.div>
