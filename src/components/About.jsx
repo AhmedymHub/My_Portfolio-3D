@@ -7,6 +7,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../higherOrderComp";
 import { close } from "../assets";
+import Link from "next/link";
 
 import ali from "../assets/images/ali.jpeg";
 
@@ -53,45 +54,77 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Full-Stack Developer with hands-on experience building scalable, 
-        high-performance web applications. I specialize in developing user-centered 
-        solutions using modern technologies such as{" "}
-        <span className="font-semibold">
-          JavaScript, TypeScript, React, and Next.js
-        </span>{" "}
-        on the frontend, and{" "}
-        <span className="font-semibold">
-          Node.js, Python, SQL, and MongoDB
-        </span>{" "}
-        on the backend. My work emphasizes clean architecture, RESTful API design, 
-        database optimization, and performance-driven development. With certifications 
-        in Google Data Analytics and Google Cybersecurity, I combine strong engineering 
-        practices with data-driven insight and security awareness to build reliable, 
-        impactful digital products.
-      </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
-
-      <motion.div
-        variants={fadeIn("up", "spring", 0, 0.6)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-        className="mt-20 flex justify-center "
-      >
-        <div className="text-section">
-          <h2 className={styles.sectionHeadText}>Who am I</h2>
-          <motion.p
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-          Driven by curiosity and continuous learning, I am a Full-Stack Developer and Data Analyst currently pursuing a Master of Computer Science at Lakehead University. I hold a Bachelor’s degree in Computer Engineering from Istanbul Arel University and specialize in building secure, scalable web applications powered by modern technologies and data-driven systems.
-          With foundations in software development, machine learning, and cybersecurity — supported by Google Data Analytics and Google Cybersecurity certifications — I focus on creating efficient, intelligent, and impactful digital solutions.
-          I bring strong communication skills, adaptability, and a structured problem-solving mindset to every project I work on.          </motion.p>
+        I am a Full-Stack Developer with hands-on experience building scalable,
+        high-performance web applications. I specialize in developing user-centered
+        solutions using modern technologies such as{" "}
+        
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-white transition-colors"
+        >
+          JavaScript
+        </a>,{" "}
+        
+        <a
+          href="https://www.typescriptlang.org/docs/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-white transition-colors"
+        >
+          TypeScript
+        </a>,{" "}
+        
+        <a
+          href="https://react.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-white transition-colors"
+        >
+          React
+        </a>, and{" "}
+        
+        <a
+          href="https://nextjs.org/docs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold hover:text-white transition-colors"
+        >
+          Next.js
+        </a>{" "}
+        
+        on the frontend...
+      </motion.p>
+      
+            <div className="mt-20 flex flex-wrap gap-10">
+              {services.map((service, index) => (
+                <ServiceCard key={service.title} index={index} {...service} />
+              ))}
+            </div>
+      
+            <motion.div
+              variants={fadeIn("up", "spring", 0, 0.6)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+              className="mt-20 flex justify-center "
+            >
+              <div className="text-section">
+                <h2 className={styles.sectionHeadText}>Who am I</h2>
+                <motion.p
+              variants={fadeIn("", "", 0.1, 1)}
+              className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
+            >
+                Driven by curiosity and continuous learning, I am a Full-Stack Developer and Data Analyst currently pursuing a Master of Computer Science at Lakehead University. I hold a Bachelor’s degree in Computer Engineering from Istanbul Arel University and specialize in building secure, scalable web applications powered by modern technologies and data-driven systems.
+                With foundations in software development, machine learning, and cybersecurity — supported by Google Data Analytics and Google Cybersecurity certifications — I focus on creating efficient, intelligent, and impactful digital solutions.
+                I bring strong communication skills, adaptability, and a structured problem-solving mindset to every project I work on.       
+                </motion.p>
         </div>
       </motion.div>
       <motion.div
