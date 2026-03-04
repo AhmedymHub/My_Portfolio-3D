@@ -51,12 +51,23 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-       am a Full-Stack Developer with hands-on experience in designing and building scalable, high-performance web applications. I specialize in creating dynamic, user-centered solutions using modern technologies such as JavaScript, TypeScript, React, and Next.js on the frontend, and Node.js, Python, SQL, and MongoDB on the backend.
-       My work focuses on clean architecture, RESTful API design, database optimization, and performance-driven development. With professional certifications in Google Data Analytics and Google Cybersecurity, I combine strong engineering practices with data-driven thinking and security awareness.
-       I am passionate about transforming ideas into efficient, responsive, and impactful digital products that solve real-world problems.
-
+        I am a Full-Stack Developer with hands-on experience building scalable, 
+        high-performance web applications. I specialize in developing user-centered 
+        solutions using modern technologies such as{" "}
+        <span className="font-semibold">
+          JavaScript, TypeScript, React, and Next.js
+        </span>{" "}
+        on the frontend, and{" "}
+        <span className="font-semibold">
+          Node.js, Python, SQL, and MongoDB
+        </span>{" "}
+        on the backend. My work emphasizes clean architecture, RESTful API design, 
+        database optimization, and performance-driven development. With certifications 
+        in Google Data Analytics and Google Cybersecurity, I combine strong engineering 
+        practices with data-driven insight and security awareness to build reliable, 
+        impactful digital products.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -78,12 +89,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4  text-violet-300 text-[17px] max-w-3xl leading-[30px]"
       >
-           Driven by curiosity and a commitment to lifelong learning, I am a Djiboutian Full-Stack Developer and Data Analyst currently pursuing a Master of Computer Science at Lakehead University. I hold a Bachelor’s degree in Computer Engineering from Istanbul Arel University and bring a solid foundation in software development, machine learning, data analytics, and cybersecurity.
-           Originally from Djibouti and now based in Canada, I am passionate about building secure, scalable, and impactful digital solutions that combine strong engineering principles with intelligent data-driven systems.
-           I speak English, French, Somali, and Turkish fluently, with working knowledge of Arabic and Afar, enabling me to collaborate effectively across diverse and multicultural environments.
-           In addition to my academic background, I hold the Google Data Analytics and Google Cybersecurity Professional Certificates, strengthening my expertise in data-driven decision-making and security best practices.
-           Beyond technical skills, I bring adaptability, empathy, strong communication, and a structured problem-solving mindset. I believe growth comes through persistence, continuous improvement, and meaningful contribution — and I am always ready to learn, build, and create solutions that make a difference.
-          </motion.p>
+          Driven by curiosity and continuous learning, I am a Full-Stack Developer and Data Analyst currently pursuing a Master of Computer Science at Lakehead University. I hold a Bachelor’s degree in Computer Engineering from Istanbul Arel University and specialize in building secure, scalable web applications powered by modern technologies and data-driven systems.
+          With foundations in software development, machine learning, and cybersecurity — supported by Google Data Analytics and Google Cybersecurity certifications — I focus on creating efficient, intelligent, and impactful digital solutions.
+          I bring strong communication skills, adaptability, and a structured problem-solving mindset to every project I work on.          </motion.p>
         </div>
       </motion.div>
       <motion.div
