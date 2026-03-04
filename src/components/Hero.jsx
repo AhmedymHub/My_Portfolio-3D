@@ -89,9 +89,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Ahmed</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Computer Engineering graduate focused on full-stack development and
-            machine learning. Passionate about building smart, modern web
-            systems.
+            Master’s Computer Science student & Full-Stack Developer
+            Building scalable, intelligent web applications powered by modern technologies and data-driven systems.
           </p>
           <div className="mt-20 flex flex-col sm:flex-row gap-7">
             {certificate.map((project, index) => (
