@@ -105,7 +105,7 @@ const certificate = [
   },
   {
     name: "Project",
-    image: proj,
+    image: Pro,
     source_code_link:
       "https://drive.google.com/file/d/1LiaEuCkvy1jMtUoCYroS4tI3WfnPXQBx/view?usp=drive_link",
   },
