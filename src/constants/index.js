@@ -40,6 +40,7 @@ import gmail from "../assets/icons/gmail.png";
 
 import Data from "../assets/images/Data.png";
 import cyber from "../assets/images/cyber.png";
+import cyber from "../assets/images/Pro.png";
 import schoo from "../assets/images/schoo.png";
 import yolo from "../assets/images/yolo.jpg";
 import mcl from "../assets/images/mcl.webp";
