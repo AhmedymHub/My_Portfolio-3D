@@ -102,6 +102,12 @@ const certificate = [
       "https://grow.google/intl/ssa-en/google-career-certificates/",
     deploy_link: "https://coursera.org/verify/professional-cert/JHEYPCYVRPVQ",
   },
+  {
+    name: "Project",
+    image: proj,
+    source_code_link:
+      "https://drive.google.com/file/d/1LiaEuCkvy1jMtUoCYroS4tI3WfnPXQBx/view?usp=drive_link",
+  },
 ];
 
 const technologies = [
